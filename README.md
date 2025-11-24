@@ -1,3 +1,4 @@
+![Gemini_Generated_Image_9hosng9hosng9hos](https://github.com/user-attachments/assets/e8479e2e-ecf8-437a-8b78-6c46e14b191a)
 # Online Finance Platform
 
 A comprehensive personal finance management system designed to help users track expenses, set budgets, and receive professional financial advice. This platform connects users with financial advisors and provides a robust admin dashboard for system management.
