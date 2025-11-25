@@ -1,74 +1,84 @@
-![Gemini_Generated_Image_9hosng9hosng9hos](https://github.com/user-attachments/assets/e8479e2e-ecf8-437a-8b78-6c46e14b191a)
-# Online Finance Platform
+# 💰 Online Finance Platform
 
-A comprehensive personal finance management system designed to help users track expenses, set budgets, and receive professional financial advice. This platform connects users with financial advisors and provides a robust admin dashboard for system management.
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-## Features
+> A comprehensive personal finance management system designed to help users track expenses, set budgets, and receive professional financial advice.
 
-### 👤 User Module
-- **Dashboard**: Real-time overview of financial health with interactive charts.
-- **Expense Tracking**: Add, view, and categorize daily expenses.
-- **Budgeting**: Set monthly budgets for different categories and track progress.
-- **Feedback**: Submit feedback to the platform administrators.
-- **Advice**: Receive personalized financial advice from certified advisors.
+---
 
-### 💼 Advisor Module
-- **Client Management**: View user profiles and their financial data.
-- **Advice System**: Send tailored financial advice to users based on their spending habits.
+## 🚀 Features
 
-### 🛡️ Admin Module
-- **User Management**: Monitor user activities and manage accounts.
-- **System Overview**: High-level view of platform usage and statistics.
+| Module | Description |
+| :--- | :--- |
+| **👤 User** | • **Dashboard**: Real-time financial health overview.<br>• **Expense Tracking**: Categorize and track daily expenses.<br>• **Budgeting**: Set and monitor monthly limits.<br>• **Advice**: Connect with certified financial advisors. |
+| **💼 Advisor** | • **Client Management**: View user profiles and financial data.<br>• **Advice System**: Provide tailored financial guidance. |
+| **🛡️ Admin** | • **User Management**: Monitor and manage platform accounts.<br>• **System Overview**: High-level usage statistics. |
 
-## Tech Stack
+---
 
-- **Backend**: Java Servlets, JSP (JavaServer Pages)
-- **Database**: MySQL
-- **Build Tool**: Maven
-- **Frontend**: HTML5, CSS3, JavaScript (Chart.js for visualizations)
-- **Server**: Apache Tomcat / Jetty
+## 🛠️ Tech Stack
 
-## Setup & Installation
+- **Backend:** Java Servlets, JSP
+- **Database:** MySQL
+- **Build Tool:** Maven
+- **Frontend:** HTML5, CSS3, JavaScript (Chart.js)
+- **Server:** Apache Tomcat / Jetty
+
+---
+
+## 🏁 Getting Started
 
 ### Prerequisites
-- Java Development Kit (JDK) 8 or higher
+
+- Java Development Kit (JDK) 8+
 - Maven 3.x
 - MySQL Server 8.x
 
-### Database Setup
-1. Create a MySQL database named `finance_db`.
-2. Import the schema from `database/schema.sql`:
+### 💾 Database Setup
+
+1. Create the database:
+   ```sql
+   CREATE DATABASE finance_db;
+   ```
+2. Import the schema:
    ```bash
    mysql -u root -p finance_db < database/schema.sql
    ```
-3. Update database credentials in `src/main/java/com/finance/util/DBConnection.java` if necessary.
+3. Configure credentials in `src/main/java/com/finance/util/DBConnection.java`.
 
-### Build & Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/finance-platform.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd finance-platform
-   ```
-3. Build the project using Maven:
-   ```bash
-   mvn clean package
-   ```
-4. Run using the Jetty plugin:
-   ```bash
-   mvn jetty:run
-   ```
-5. Access the application at `http://localhost:8080/finance`.
+### 🏃‍♂️ Build & Run
 
-## Default Credentials
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/finance-platform.git
+
+# Navigate to project
+cd finance-platform
+
+# Build with Maven
+mvn clean package
+
+# Run with Jetty
+mvn jetty:run
+```
+
+Access the application at: `http://localhost:8080/finance`
+
+---
+
+## 🔑 Default Credentials
 
 | Role | Email | Password |
-|------|-------|----------|
-| **Admin** | admin@finance.com | admin123 |
-| **Advisor** | advisor@finance.com | advisor123 |
-| **User** | user@finance.com | user123 |
+| :--- | :--- | :--- |
+| **Admin** | `admin@finance.com` | `admin123` |
+| **Advisor** | `advisor@finance.com` | `advisor123` |
+| **User** | `user@finance.com` | `user123` |
 
-## License
+---
+
+## 📄 License
+
 This project is licensed under the MIT License.
