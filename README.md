@@ -53,7 +53,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/finance-platform.git
+git clone https://github.com/VishuGupta572/OnlineFinance_Platform.git
 
 # Navigate to project
 cd finance-platform
